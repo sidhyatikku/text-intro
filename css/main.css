@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+body {
+  margin: 0;
+  background-color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.mirror {
+  font-weight: 600;
+  font-size: 3vw;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40vh;
+  margin-bottom: 65vh;
+  transition: 0.3s ease-in-out;
+}
+
+.mirror.active {
+  opacity: 0.3;
+}
+
+.poem {
+  min-height: 1500px;
+  padding-top: 200px;
+  text-align: center;
+  background-image: url('https://www.ficommpartners.com/wp-content/uploads/2018/03/person-holding-mirror.jpg');
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 2.5vw;
+  padding-bottom: 100vh;
+
+}
